@@ -1,0 +1,14 @@
+$black: #101010;
+$white: #d6d6d6;
+
+@mixin flexcenter($left: false) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  @if $left {
+    align-items: flex-start;
+  } @else {
+    align-items: center;
+  }
+}

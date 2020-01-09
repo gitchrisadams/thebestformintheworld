@@ -1,0 +1,14 @@
+@import 'vars';
+
+form {
+  @include flexcenter(true);
+
+  flex-direction: column;
+  border: 1px solid $black;
+  border-radius: 4px;
+  padding: 1rem 2rem 2rem 2rem;
+
+  button {
+    margin-top: 1rem
+  }
+}
